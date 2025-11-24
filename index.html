@@ -11,12 +11,13 @@
     <label for="fn">Name</label>
     <input type="text" id="fn" class="form-control mb-3" value="" >
     <label for="pc">Price</label>
-    <input type="number" id="pc" class="form-control mb-3" value="">
+    <input type="text" id="pc" class="form-control mb-3" value="">
     <label for="pb">Category</label>
     <input type="text" id="pb" class="form-control mb-3" value="" >
     <label for="pd">Product Discraption</label>
     <textarea  id="pd" class="form-control" value=""></textarea>
     <button class="btn btn-outline-info  mt-3" onclick="addNewElement()" id="Update">Add Element</button>
+    <input type="text" class="form-control my-2" placeholder="Search...." onkeyup="search(this.value)">
      <table class="table table-striped">
       <thead>
         <tr>
